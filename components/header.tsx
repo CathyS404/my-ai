@@ -29,7 +29,7 @@ export function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-sm text-muted hover:text-foreground transition-colors"
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
                 {item.name}
               </Link>
@@ -39,7 +39,7 @@ export function Header() {
         <div className="hidden lg:flex lg:items-center lg:gap-x-4">
           <Link
             href="#"
-            className="text-sm text-muted hover:text-foreground transition-colors"
+            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
           >
             登录
           </Link>
@@ -66,14 +66,14 @@ export function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="block text-sm text-muted hover:text-foreground transition-colors"
+                className="block text-sm text-muted-foreground hover:text-foreground transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {item.name}
               </Link>
             ))}
             <div className="pt-4 border-t border-border flex flex-col gap-3">
-              <Link href="#" className="text-sm text-muted hover:text-foreground transition-colors">
+              <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                 登录
               </Link>
               <Link

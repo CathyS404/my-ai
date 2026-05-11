@@ -7,7 +7,7 @@ export function Hero() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <div className="mb-8 flex justify-center">
-            <div className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-1.5 text-sm text-muted">
+            <div className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-1.5 text-sm text-muted-foreground">
               <span className="rounded-full bg-primary px-2 py-0.5 text-xs font-medium text-primary-foreground">
                 新功能
               </span>
@@ -23,7 +23,7 @@ export function Hero() {
             </span>
           </h1>
           
-          <p className="mt-6 text-lg leading-relaxed text-muted lg:text-xl">
+          <p className="mt-6 text-lg leading-relaxed text-muted-foreground lg:text-xl">
             使用 AI 驱动的自动化工具，帮助您的团队提升效率，简化复杂的工作流程。
             <span className="text-foreground"> 让重复性工作交给智能助手处理。</span>
           </p>

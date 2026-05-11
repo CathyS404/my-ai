@@ -55,7 +55,7 @@ export function Pricing() {
     <section id="pricing" className="py-20 lg:py-32 border-t border-border">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-1.5 text-sm text-muted">
+          <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-1.5 text-sm text-muted-foreground">
             <span className="rounded-full bg-primary px-2 py-0.5 text-xs font-medium text-primary-foreground">
               新
             </span>
@@ -64,7 +64,7 @@ export function Pricing() {
           <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
             选择适合您的方案
           </h2>
-          <p className="mt-4 text-lg text-muted">
+          <p className="mt-4 text-lg text-muted-foreground">
             立即免费开始，随时升级获取更多功能
           </p>
         </div>
@@ -91,16 +91,16 @@ export function Pricing() {
                 <h3 className="text-lg font-semibold text-foreground">{tier.name}</h3>
                 <div className="mt-4 flex items-baseline">
                   <span className="text-4xl font-bold text-foreground">{tier.price}</span>
-                  <span className="ml-1 text-sm text-muted">{tier.period}</span>
+                  <span className="ml-1 text-sm text-muted-foreground">{tier.period}</span>
                 </div>
-                <p className="mt-2 text-sm text-muted">{tier.description}</p>
+                <p className="mt-2 text-sm text-muted-foreground">{tier.description}</p>
               </div>
               
               <ul className="mb-8 space-y-3">
                 {tier.features.map((feature) => (
                   <li key={feature} className="flex items-start gap-3">
-                    <Check className={`h-5 w-5 flex-shrink-0 ${tier.highlighted ? "text-primary" : "text-muted"}`} />
-                    <span className="text-sm text-muted">{feature}</span>
+                    <Check className={`h-5 w-5 flex-shrink-0 ${tier.highlighted ? "text-primary" : "text-muted-foreground"}`} />
+                    <span className="text-sm text-muted-foreground">{feature}</span>
                   </li>
                 ))}
               </ul>
@@ -123,12 +123,12 @@ export function Pricing() {
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
             <div>
               <h3 className="text-lg font-semibold text-foreground">企业版</h3>
-              <p className="mt-1 text-sm text-muted">
+              <p className="mt-1 text-sm text-muted-foreground">
                 为大型企业提供定制化解决方案，满足更高的安全和合规要求
               </p>
               <ul className="mt-4 flex flex-wrap gap-x-6 gap-y-2">
                 {["SAML SSO 单点登录", "专属技术支持", "自定义 SLA", "培训服务"].map((feature) => (
-                  <li key={feature} className="flex items-center gap-2 text-sm text-muted">
+                  <li key={feature} className="flex items-center gap-2 text-sm text-muted-foreground">
                     <Check className="h-4 w-4 text-primary" />
                     {feature}
                   </li>

@@ -41,7 +41,7 @@ export function Features() {
           <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
             强大功能，简单易用
           </h2>
-          <p className="mt-4 text-lg text-muted">
+          <p className="mt-4 text-lg text-muted-foreground">
             一切您需要的功能，帮助团队实现工作流程自动化
           </p>
         </div>
@@ -59,7 +59,7 @@ export function Features() {
                 <h3 className="mt-4 text-lg font-semibold text-foreground">
                   {feature.name}
                 </h3>
-                <p className="mt-2 text-sm leading-relaxed text-muted">
+                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
                   {feature.description}
                 </p>
               </div>
