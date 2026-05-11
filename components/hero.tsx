@@ -18,7 +18,7 @@ export function Hero() {
           
           <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl lg:text-7xl">
             <span className="block">智能工作流</span>
-            <span className="block mt-2 bg-gradient-to-r from-primary to-emerald-400 bg-clip-text text-transparent">
+            <span className="block mt-2 bg-gradient-to-r from-primary to-cyan-500 bg-clip-text text-transparent">
               自动化平台
             </span>
           </h1>
